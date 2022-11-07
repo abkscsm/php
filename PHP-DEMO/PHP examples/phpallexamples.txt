@@ -1,0 +1,8 @@
+
+very good examples of php
+ 
+http://www.webdatabasebook.com/2nd-edition/examples/index.html?
+
+http://www.stardesigns.net/phpdatabase.html
+
+http://www.php-mysql-tutorial.com/install-apache-php-mysql.php

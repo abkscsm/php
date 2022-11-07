@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<?php
+$con=mysql_connect("localhost:3306","root","atul") or die("Sorry,could not connect!");
+$db=mysql_select_db("proinfo",$con);
+$query=mysql_query("select price from product where price>1000");
+while($row=mysql_fetch_array($query))
+{
+	for($i=1;$i<=mysql_num_rows($query);$i++)
+		{
+			print($row[$i]."<br>");
+		}
+}
+
+?>
+</body>
+</html>

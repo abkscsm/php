@@ -1,0 +1,27 @@
+<?xml version="1.0"?> 
+  <storeList> 
+      <listName>Store List</listName>
+      <clothGroup>
+          <groupName>Shirts</groupName>
+          <item>
+              <name>T-shirts</name>
+              <howMuch>25</howMuch>
+          </item>
+          <item>
+              <name>Shirts</name>
+              <howMuch>15</howMuch>
+          </item>
+      </clothGroup>
+      <clothGroup>
+          <groupName>Pants</groupName>
+          <item>
+              <name>Jeans</name>
+              <howMuch>27</howMuch>
+          </item>
+          <item>
+              <name>Cotton Jeans</name>
+              <howMuch>11</howMuch>
+          </item>
+      </clothGroup> 
+  </storeList>
+
